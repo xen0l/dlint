@@ -221,3 +221,6 @@ def same_modules(s1, s2):
         len(modules1) <= len(modules2)
         and all(m1 == m2 for (m1, m2) in zip(modules1, modules2))
     )
+
+def test_github_action():
+    import Crypto 
