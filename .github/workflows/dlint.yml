@@ -9,5 +9,3 @@ jobs:
 
     steps:
       - uses: xen0l/dlint-check@master
-        with:
-          path: dlint
