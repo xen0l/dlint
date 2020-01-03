@@ -1,0 +1,13 @@
+name: dlint
+
+on:
+  - pull_request
+
+jobs:
+  dlint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: xen0l/dlint-check@master
+        with:
+          path: dlint
